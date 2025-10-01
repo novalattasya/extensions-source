@@ -41,7 +41,7 @@ class BacaKomik : ParsedHttpSource() {
     }
 
     override fun latestUpdatesRequest(page: Int): Request {
-        return GET("$baseUrl/daftar-komik/${pagePath(page)}?order=update", headers)
+        return GET("$baseUrl/komik-terbaru/${pagePath(page)}", headers)
     }
 
     override fun popularMangaSelector() = "div.animepost"
