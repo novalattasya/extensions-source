@@ -2,8 +2,8 @@ ext {
     extName = 'Winter Sun'
     extClass = '.WinterSun'
     themePkg = 'madara'
-    baseUrl = 'https://wintersunscan.xyz'
-    overrideVersionCode = 0
+    baseUrl = 'https://wintersunscan.com'
+    overrideVersionCode = 1
     isNsfw = true
 }
 
