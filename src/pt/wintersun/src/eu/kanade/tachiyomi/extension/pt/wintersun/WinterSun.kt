@@ -6,7 +6,7 @@ import java.util.Locale
 
 class WinterSun : Madara(
     "Winter Sun",
-    "https://wintersunscan.xyz",
+    "https://wintersunscan.com",
     "pt-BR",
     SimpleDateFormat("dd 'de' MMMMM 'de' yyyy", Locale("pt", "BR")),
 ) {
